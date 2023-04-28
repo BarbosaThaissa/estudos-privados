@@ -1,1 +1,1 @@
-Bom,
+Bom, vou usar esse repositório privado para treinar TypeScript e Java.
