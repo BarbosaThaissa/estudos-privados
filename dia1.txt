@@ -1,1 +1,3 @@
 Bom, vou usar esse repositório privado para treinar TypeScript e Java. E para manter meu github bonitinho e com frequencia.
+
+despois eu tento testar por completo o typescript. Let's go!
