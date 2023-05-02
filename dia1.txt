@@ -1,3 +1,6 @@
 Bom, vou usar esse repositório privado para treinar TypeScript e Java. E para manter meu github bonitinho e com frequencia.
 
 despois eu tento testar por completo o typescript. Let's go!
+
+2/05/2023
+Bom, hoje eu vi 3 horas do video tutorial do Airbeb, 
