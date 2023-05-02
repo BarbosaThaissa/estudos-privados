@@ -3,4 +3,4 @@ Bom, vou usar esse repositório privado para treinar TypeScript e Java. E para m
 despois eu tento testar por completo o typescript. Let's go!
 
 2/05/2023
-Bom, hoje eu vi 3 horas do video tutorial do Airbeb, fiz 2 unidades de ingles e 
+Bom, hoje eu vi 3 horas do video tutorial do Airbeb, fiz 2 unidades de ingles e vi u pouco do botcamp de angular da DIo, tenho que colocar em ordem as atividades.
