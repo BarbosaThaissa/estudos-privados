@@ -20,34 +20,26 @@ const pedidos = (client, end, qtdItens, iten) => {
   )}`;
 };
 
-console.log(teste.toFixed(2));
-console.log(pedidos(pedido.cliente, pedido.endereco, 2, pedido.itens));
+console.log('EX 1 \n \n', pedidos(pedido.cliente, pedido.endereco, 2, pedido.itens));
+
 //EXERCIO 2
 const pedidoEx2 = {
   cliente: {
-    nome: gets().trim(),      
-    endereco: gets().trim(), 
+    nome: 'maria',      
+    endereco: "Rua B, 456", 
   },
-  id: parseInt(gets().trim()),
+  id: 666,
 };
 
-pedidoEx2.cliente.telefone = gets().trim().replace(/[^0-9]/g, '').replace(/(\d{4})(\d{4})/, '$1-$2');
+let num = '55550000'
 
-
-console.log(
-  myFunction(
-    pedido.cliente.nome,
-    pedido.cliente.endereco,
-    pedido.id,
-    pedido.cliente.telefone // Use a propriedade "telefone" em vez de "tele".
-  )
-);
+pedidoEx2.cliente.telefone = num.trim().replace(/[^0-9]/g, '').replace(/(\d{4})(\d{4})/, '$1-$2');
 
 const myFunction = (client, end, id, tel) => {
   return `Cliente: ${client}, ${end} \n ID: ${id} \n Tel: ${tel}`;
 };
 
-console.log(
+console.log('EX 2 \n \n',
   myFunction(
     pedidoEx2.cliente.nome,
     pedidoEx2.cliente.endereco,
@@ -56,13 +48,79 @@ console.log(
   )
 );
 
+// EXERCIO 3
+const objeto1 = { nome: "João", idade: 25 };
+const objeto2 = { nome: "Maria", idade: 30 };
 
+function compararObjetos(obj1, obj2) {
+  // Verifica se os objetos têm a mesma quantidade de propriedades
+  if (Object.keys(obj1).length !== Object.keys(obj2).length) {
+    return "Os objetos são diferentes.";
+  }
 
-// Saída esperada:
-// Cliente: Joao, Rua ABC, 9
-// ID: 99
-// Tel: 5555-0000
-// Sua Saída:
-// Cliente: Joao, Rua ABC, 9
-// ID: 99
-// Tel: 5555-8888
+  // Itera sobre as propriedades do objeto1
+  for (let propriedade in obj1) {
+    // Verifica se o objeto2 possui a mesma propriedade
+    if (!obj2.hasOwnProperty(propriedade)) {
+      return "Os objetos são diferentes.";
+    }
+
+    // Verifica se os valores da propriedade são iguais
+    if (obj1[propriedade] !== obj2[propriedade]) {
+      return "Os objetos são diferentes.";
+    }
+  }
+
+  // Se não houver diferenças encontradas, os objetos são iguais
+  return "Os objetos são iguais.";
+}
+
+console.log('EX 3 \n \n', compararObjetos(objeto1, objeto2));
+
+//EXERCIO 4
+
+const restaurantes = [
+  {
+    nome: 'Bar do Zé ', 
+    avaliacao: 3.5
+  },
+  {
+    nome: 'Pizza Boa', 
+    avaliacao: 4.2
+  }
+];
+
+const qualMelhor = (rest1, rest2) => {
+  let result = rest1.avaliacao > rest2.avaliacao ? rest1 : rest2;
+  
+  return `Restaurante: ${result.nome}, Avaliacao: ${result.avaliacao.toFixed(1)}`; 
+}
+
+console.log('EX 4 \n \n', qualMelhor(restaurantes[0], restaurantes[1]))
+
+//EXERCIO 5
+const pedidosPerto = [
+  { 
+    nome: 'Rafael', 
+    tipo: 'Massa', 
+    distancia: 3.5
+  },
+  { 
+    nome: 'Maria', 
+    tipo: 'humbuguer', 
+    distancia: 1.2
+  },
+  { 
+    nome: 'My', 
+    tipo: 'Soverte', 
+    distancia: 4.9
+  }
+];
+
+const maisPerto = (pedido1, pedido2, pedido3) => {
+  let result = pedido1.distancia < pedido2.distancia && pedido1.distancia < pedido3.distancia ? pedido1 : pedido2.distancia < pedido3.distancia ? pedido2 : pedido3;
+
+  return `O pedido mais próximo é o de ${result.nome}, do tipo ${result.tipo}`
+}
+
+console.log('EX 5 \n \n', maisPerto(pedidosPerto[0], pedidosPerto[1], pedidosPerto[2]))
