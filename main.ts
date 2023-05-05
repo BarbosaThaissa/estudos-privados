@@ -28,10 +28,10 @@ const pedidosTs = (
   iten: ObjetoNumStris[]
 ) => {
   let result = iten.map((sum) => {
-    teste += sum.preco;
+    testeTs += sum.preco;
   });
 
-  return `Pedido: ${client} \n Endereco de entrega: ${end} \n Total: R$ ${teste.toFixed(
+  return `Pedido: ${client} \n Endereco de entrega: ${end} \n Total: R$ ${testeTs.toFixed(
     2
   )}`;
 };
@@ -62,7 +62,7 @@ const pedidoEx23: PedidosgEx2 = {
 
 let nume: string = "55550000";
 
-pedidoEx23.cliente.telefone = num
+pedidoEx23.cliente.telefone = nume
   .trim()
   .replace(/[^0-9]/g, "")
   .replace(/(\d{4})(\d{4})/, "$1-$2");
@@ -73,7 +73,7 @@ const myFunctionTs = (client: string, end: string, id: number, tel: string) => {
 
 console.log(
   "EX 2, arquivo TypeScript \n \n",
-  myFunction(
+  myFunctionTs(
     pedidoEx23.cliente.nome,
     pedidoEx23.cliente.endereco,
     pedidoEx23.id,
