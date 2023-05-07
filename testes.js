@@ -1,27 +1,3 @@
-let teste = 5;
-
-const pedido = {
-  cliente: "Joao",
-  endereco: "Rua B, 456",
-  itens: [
-    { nome: "Hamburuer", preco: 15 },
-    { nome: "Batata frita", preco: 8 },
-  ],
-  taxaEntrega: 5.0,
-};
-
-const pedidos = (client, end, qtdItens, iten) => {
-  let result = iten.map((sum) => {
-    teste += sum.preco;
-  });
-
-  return `Pedido: ${client} \n Endereco de entrega: ${end} \n Total: R$ ${teste.toFixed(
-    2
-  )}`;
-};
-
-console.log('EX 1 \n \n', pedidos(pedido.cliente, pedido.endereco, 2, pedido.itens));
-
 // EXERCIO 3
 const objeto1 = { nome: "João", idade: 25 };
 const objeto2 = { nome: "Maria", idade: 30 };
