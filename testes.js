@@ -22,32 +22,6 @@ const pedidos = (client, end, qtdItens, iten) => {
 
 console.log('EX 1 \n \n', pedidos(pedido.cliente, pedido.endereco, 2, pedido.itens));
 
-//EXERCIO 2
-const pedidoEx2 = {
-  cliente: {
-    nome: 'maria',      
-    endereco: "Rua B, 456", 
-  },
-  id: 666,
-};
-
-let num = '55550000'
-
-pedidoEx2.cliente.telefone = num.trim().replace(/[^0-9]/g, '').replace(/(\d{4})(\d{4})/, '$1-$2');
-
-const myFunction = (client, end, id, tel) => {
-  return `Cliente: ${client}, ${end} \n ID: ${id} \n Tel: ${tel}`;
-};
-
-console.log('EX 2 \n \n',
-  myFunction(
-    pedidoEx2.cliente.nome,
-    pedidoEx2.cliente.endereco,
-    pedidoEx2.id,
-    pedidoEx2.cliente.telefone
-  )
-);
-
 // EXERCIO 3
 const objeto1 = { nome: "João", idade: 25 };
 const objeto2 = { nome: "Maria", idade: 30 };
