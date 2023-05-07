@@ -97,30 +97,3 @@ const qualMelhor = (rest1, rest2) => {
 }
 
 console.log('EX 4 \n \n', qualMelhor(restaurantes[0], restaurantes[1]))
-
-//EXERCIO 5
-const pedidosPerto = [
-  { 
-    nome: 'Rafael', 
-    tipo: 'Massa', 
-    distancia: 3.5
-  },
-  { 
-    nome: 'Maria', 
-    tipo: 'humbuguer', 
-    distancia: 1.2
-  },
-  { 
-    nome: 'My', 
-    tipo: 'Soverte', 
-    distancia: 4.9
-  }
-];
-
-const maisPerto = (pedido1, pedido2, pedido3) => {
-  let result = pedido1.distancia < pedido2.distancia && pedido1.distancia < pedido3.distancia ? pedido1 : pedido2.distancia < pedido3.distancia ? pedido2 : pedido3;
-
-  return `O pedido mais próximo é o de ${result.nome}, do tipo ${result.tipo}`
-}
-
-console.log('EX 5 \n \n', maisPerto(pedidosPerto[0], pedidosPerto[1], pedidosPerto[2]))
