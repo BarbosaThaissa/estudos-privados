@@ -76,24 +76,3 @@ function compararObjetos(obj1, obj2) {
 }
 
 console.log('EX 3 \n \n', compararObjetos(objeto1, objeto2));
-
-//EXERCIO 4
-
-const restaurantes = [
-  {
-    nome: 'Bar do Zé ', 
-    avaliacao: 3.5
-  },
-  {
-    nome: 'Pizza Boa', 
-    avaliacao: 4.2
-  }
-];
-
-const qualMelhor = (rest1, rest2) => {
-  let result = rest1.avaliacao > rest2.avaliacao ? rest1 : rest2;
-  
-  return `Restaurante: ${result.nome}, Avaliacao: ${result.avaliacao.toFixed(1)}`; 
-}
-
-console.log('EX 4 \n \n', qualMelhor(restaurantes[0], restaurantes[1]))
