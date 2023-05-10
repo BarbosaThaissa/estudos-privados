@@ -1,13 +1,3 @@
-Bom, vou usar esse repositório privado para treinar TypeScript e Java. E para manter meu github bonitinho e com frequencia.
-
-despois eu tento testar por completo o typescript. Let's go!
-
-2/05/2023
-Bom, hoje eu vi 3 horas do video tutorial do Airbeb, fiz 2 unidades de ingles e vi u pouco do botcamp de angular da DIo, tenho que colocar em ordem as atividades.
-
-04/05/2023
-Bom, hoje eu foquei em planejar mais como u vou fazer o software de ediçãode fotos e videos, e desatrasar os meus estudos de ingles, e terminei o bootcamp da DIo de Angular. Além disso, fiz o teste de nível para o programa de reprograma, só falta fazer a oficina agora;
-
-Bom, hoje eu eu tomei uma overdose de ingles para desatrarsar e fiz os testes do Reprograma e do emprego que estou concorrendo no ProgramThor.
-
 Bom, hoje eu finalmente desatrasei o meu estudos de ingles, e fiz mais algumans perguntas para o cht gpt para o projeto de app de edição de fotos que estou pensando em fazer e mais tarde vou termenar de vez o detalhs no pojeto Pokedex e já vou entregar logo.
+
+Bo, ontem eu foquei em fazer o prompt share, do Andrian
