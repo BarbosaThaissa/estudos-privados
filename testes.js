@@ -26,3 +26,5 @@ function compararObjetos(obj1, obj2) {
 }
 
 console.log('EX 3 \n \n', compararObjetos(objeto1, objeto2));
+//
+const arrayNumbers = [1, 2, 3, 4, 5, 6, 7]
