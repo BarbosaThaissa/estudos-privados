@@ -183,3 +183,6 @@ console.log(
   "EX 5, arquivo TypeScript \n \n",
   maisPerto1(pedidosPerto2[0], pedidosPerto2[1], pedidosPerto2[2])
 );
+
+
+const str: string[] = 'blaba'
