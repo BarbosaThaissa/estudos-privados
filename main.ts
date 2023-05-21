@@ -185,4 +185,4 @@ console.log(
 );
 
 
-const str: string[] = 'blaba'
+const str: string[] = ['blaba', 'bla', 'bla', 'bl']
