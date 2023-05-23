@@ -25,9 +25,3 @@ function compararObjetos(obj1, obj2) {
   return "Os objetos são iguais.";
 }
 
-console.log('EX 3 \n \n', compararObjetos(objeto1, objeto2));
-//
-const arrayNumbers = [1, 2, 3, 4, 5, 6, 7]
-const arrayStrings = ['Hello', 'World']
-
-console.log('array de numeros', arrayNumbers, '\n array de strings', arrayStrings)
