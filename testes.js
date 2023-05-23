@@ -15,13 +15,4 @@ function compararObjetos(obj1, obj2) {
       return "Os objetos são diferentes.";
     }
 
-    // Verifica se os valores da propriedade são iguais
-    if (obj1[propriedade] !== obj2[propriedade]) {
-      return "Os objetos são diferentes.";
-    }
-  }
-
-  // Se não houver diferenças encontradas, os objetos são iguais
-  return "Os objetos são iguais.";
-}
-
+    
