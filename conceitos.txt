@@ -1,0 +1,11 @@
+CRUD
+CRUD é um conceito que surge muito no desenvolvimento web, e é o tipo de coisa que pode aparecer em perguntas de entrevistas, então vale a pena dedicar um pouco de tempo para ter certeza de que você entendeu a que se refere. Felizmente, é um conceito relativamente simples.
+
+CRUD significa: Criar, Ler, Atualizar e Excluir . Estas são as quatro funções básicas que você criará em seus aplicativos baseados em banco de dados. Simplificando, se você estiver projetando uma interface CRUD, isso significa que os usuários podem esperar fazer essas 4 coisas nos itens do banco de dados (desde que tenham as permissões apropriadas, é claro).
+
+No exemplo da sua biblioteca, isso significa simplesmente que vamos criar a capacidade dos usuários de createentradas (adicionar livros, autores ou gêneros ao banco de dados), readentradas (ou recuperar listas de livros e outras coisas do banco de dados), updateentradas (editar detalhes de uma entrada) e deleteentradas (removê-las do banco de dados).
+
+Claro, isso é simplesmente um conceito e não algum tipo de regra que deve ser seguida. Você pode não querer permitir que os usuários façam todas essas ações ou pode querer limitar quais usuários podem fazer o que em um determinado momento. Por exemplo, se você estiver criando um site de rede social, poderá permitir apenas que os usuários acessem readas informações de perfil de seus amigos ou conexões e talvez não queira permitir que as pessoas façam deletenada.
+
+As operações CRUD se correlacionam aproximadamente com os métodos HTTP que você pode empregar em um aplicativo expresso. Essa definição pode ser um pouco flexível, mas em geral createse correlaciona com POST(ou app.post()em um aplicativo expresso), readse correlaciona com GET( app.get()), updatecom PUT( app.put()) e deletecom DELETE( app.delete())
+
