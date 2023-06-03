@@ -9,3 +9,20 @@ Claro, isso é simplesmente um conceito e não algum tipo de regra que deve ser 
 
 As operações CRUD se correlacionam aproximadamente com os métodos HTTP que você pode empregar em um aplicativo expresso. Essa definição pode ser um pouco flexível, mas em geral createse correlaciona com POST(ou app.post()em um aplicativo expresso), readse correlaciona com GET( app.get()), updatecom PUT( app.put()) e deletecom DELETE( app.delete())
 
+MVC
+MVC é outro conceito comum no desenvolvimento web e também algo que provavelmente surgirá em uma entrevista. MVC significa Model, View, Controller e refere-se à arquitetura do seu código. Basicamente, é uma forma de organizar sua aplicação separando todas as ações em 3 componentes principais: Models, Views e Controllers.
+
+Os modelos são os blocos de construção básicos do seu banco de dados. Portanto, para cada entrada em seu banco de dados (livros, autores, etc. em nosso projeto de biblioteca), você criará um modelo que contém os detalhes dessa entrada. Os modelos definem os tipos de informações que são usados ​​por suas visualizações e controladores.
+
+As visualizações são, obviamente, o componente que gera a interface do usuário para seu aplicativo. Em nosso caso, selecionamos um mecanismo de modelagem que usa dados fornecidos por um controlador para exibir as informações desejadas.
+
+Os controladores são os componentes que decidem qual exibição exibir e quais informações serão colocadas nela.
+
+Exemplo MVC
+Sem se aprofundar no código prematuramente, considere um site de upload de fotos muito simples. Os usuários podem fazer upload e visualizar fotos listadas em um índice em algum lugar. Neste caso, teremos um modelo para nossas fotos que definiria como nossas fotos são armazenadas no banco de dados (DB). O modelo pode especificar que as fotos devem ser objetos com um filename, um URLe um date-createdcampo.
+
+Vamos precisar de duas exibições, 1) o índice e 2) a exibição de exibição de fotos, que exibirá apenas uma única foto.
+
+Nosso controlador seria chamado pelo Express sempre que recebermos uma app.get()solicitação. Em seguida, usaria os detalhes da solicitação para determinar qual visualização é exibida e qual imagem é exibida, dependendo se o usuário está solicitando o índice ou a página de uma foto específica.
+
+Se isso é um pouco confuso neste ponto, não se preocupe muito com isso. Você criará modelos, visualizações e controladores no tutorial e tudo ficará muito mais claro quando você os vir em uso.
