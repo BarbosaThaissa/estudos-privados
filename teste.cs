@@ -5,7 +5,6 @@ class Program
     static void Main()
     {
         Console.WriteLine("Olá, mundo!");
-
         // Obter os números do usuário
         Console.Write("Digite o primeiro número: ");
         double numero1 = Convert.ToDouble(Console.ReadLine());
