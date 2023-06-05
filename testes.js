@@ -6,5 +6,5 @@ const objeto4 = { nome: "lll", idade: 35 };
 
 //meme
 console.log('1', 0 == '0')
-console.log('2', 0 == [])
+
 console.log('3', '0' == [])
