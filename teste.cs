@@ -1,5 +1,7 @@
 using System;
+using System.Diagnostics;
 
+[DebuggerDisplay($"{{{nameof(GetDebuggerDisplay)}(),nq}}")]
 class Program
 {
     static void Main()
@@ -20,5 +22,10 @@ class Program
 
         // Exibir o resultado
         Console.WriteLine("A média dos três números é: " + media);
+    }
+
+    private string GetDebuggerDisplay()
+    {
+        return ToString();
     }
 }
