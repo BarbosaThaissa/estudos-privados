@@ -35,29 +35,6 @@ interface ObjetoClientEx2 {
       ));
     }
   
-    public static String myFunctionJava(String client, String end, int id, String tel) {
-      return String.format("Cliente: %s, %s \n ID: %d \n Tel: %s", client, end, id, tel);
-    }
-  }
-  
-  // EXERCIO 4
-  class RestaurantesEx4 {
-    String nome;
-    double avaliacao;
-  }
-  
-  public class Main {
-    public static void main(String[] args) {
-      RestaurantesEx4[] restaurantes2 = {
-        new RestaurantesEx4("Bar do Zé", 3.5),
-        new RestaurantesEx4("Pizza Boa", 4.2)
-      };
-  
-      System.out.println("EX 4, arquivo Java");
-      System.out.println(qualMelhor1(restaurantes2[0], restaurantes2[1]));
-    }
-  
-    public static String qualMelhor1(RestaurantesEx4 rest1, RestaurantesEx4 rest2) {
-      RestaurantesEx4 result = rest1.avaliacao > rest2.avaliacao ? rest1 : rest2;
+    public staliacao ? rest1 : rest2;
   
       return String.format("Restaurante: %s, Avaliacao: %
