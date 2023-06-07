@@ -60,7 +60,4 @@ interface ObjetoClientEx2 {
     public static String qualMelhor1(RestaurantesEx4 rest1, RestaurantesEx4 rest2) {
       RestaurantesEx4 result = rest1.avaliacao > rest2.avaliacao ? rest1 : rest2;
   
-      return String.format("Restaurante: %s, Avaliacao: %.1f", result.nome, result.avaliacao);
-    }
-  }
-  
+      return String.format("Restaurante: %s, Avaliacao: %
