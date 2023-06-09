@@ -68,5 +68,4 @@ console.log(
   qualMelhor1(restaurantes2[0], restaurantes2[1])
 );
 
-// coisas
-
+const blabla: string = 'blabla'
