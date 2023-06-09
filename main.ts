@@ -67,8 +67,3 @@ console.log(
   "EX 4, arquivo TypeScript \n \n",
   qualMelhor1(restaurantes2[0], restaurantes2[1])
 );
-
-const blabla: string = 'blabla'
-const umNumero: number = 30
-const verdaOuFalse: boolean = true
-const myArr: (string | number)[] = ['dfsdf', 312121]
