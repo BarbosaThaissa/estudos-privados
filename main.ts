@@ -69,3 +69,6 @@ console.log(
 );
 
 const blabla: string = 'blabla'
+const blabla: string = 'blabla'
+const blabla: string = 'blabla'
+const blabla: string = 'blabla'
