@@ -71,4 +71,4 @@ console.log(
 const blabla: string = 'blabla'
 const umNumero: number = 30
 const verdaOuFalse: boolean = true
-const blabla: string = 'blabla'
+const myArr: (string | number)[] = ['dfsdf', 312121]
