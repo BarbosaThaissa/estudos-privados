@@ -67,3 +67,6 @@ console.log(
   "EX 4, arquivo TypeScript \n \n",
   qualMelhor1(restaurantes2[0], restaurantes2[1])
 );
+
+// coisas
+
