@@ -69,6 +69,6 @@ console.log(
 );
 
 const blabla: string = 'blabla'
-const blabla: string = 'blabla'
+const umNumero: number = 30
 const blabla: string = 'blabla'
 const blabla: string = 'blabla'
