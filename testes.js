@@ -50,10 +50,3 @@ console.log(bananinha.startsWith("ban")); // Verifica se a string começa com a 
 
 console.log(bananinha.endsWith("nha")); // Verifica se a string termina com a substring "nha": true
 
-console.log(bananinha.slice(2, 6)); // Retorna uma parte da string a partir do índice 2 até o índice 5: "nani"
-
-console.log(bananinha.toUpperCase()); // Converte a string para maiúsculas: "BANANINHA"
-
-console.log(bananinha.toLowerCase()); // Converte a string para minúsculas: "bananinha"
-
-console.log(bananinha.replace("na", "va")); // Substitui a primeira ocorrência da substring "na" por "va": "bavaninha"
