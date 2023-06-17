@@ -57,10 +57,3 @@ console.log(bananinha.toUpperCase()); // Converte a string para maiúsculas: "BA
 console.log(bananinha.toLowerCase()); // Converte a string para minúsculas: "bananinha"
 
 console.log(bananinha.replace("na", "va")); // Substitui a primeira ocorrência da substring "na" por "va": "bavaninha"
-
-console.log(bananinha.repeat(3)); // Repete a string três vezes: "bananinhabananinhabananinha"
-
-console.log(bananinha.trim()); // Remove os espaços em branco no início e no final da string: "bananinha"
-
-console.log(bananinha.split("a")); // Divide a string em um array de substrings utilizando "a" como separador: ["b", "n", "ninh"]
-
