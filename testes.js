@@ -1,33 +1,33 @@
 // Postagem
 
-//Datas metodos
+//Math metodos
 
-const date = new Date();
+// Math.abs(): Retorna o valor absoluto de um número.
+const num = -42;
+console.log(Math.abs(num)); // Saída: 42
 
-// getFullYear(): Retorna o ano de uma data.
-const year = date.getFullYear();
-console.log(year);
+// Math.ceil(): Arredonda para cima o valor de um número.
+const value = 3.14;
+console.log(Math.ceil(value)); // Saída: 4
 
-// getMonth(): Retorna o mês de uma data (0 - janeiro, 1 - fevereiro, etc.).
-const month = date.getMonth();
-console.log(month);
+// Math.floor(): Arredonda para baixo o valor de um número.
+const value2 = 3.99;
+console.log(Math.floor(value2)); // Saída: 3
 
-// getDate(): Retorna o dia do mês de uma data.
-const dayOfMonth = date.getDate();
-console.log(dayOfMonth);
+// Math.max():  Retorna o maior valor entre os argumentos passados.
+const maxNumber = Math.max(10, 5, 15, 20);
+console.log(maxNumber); // Saída: 20
 
-// getDay(): Retorna o dia da semana de uma data (0 - domingo, 1 - segunda-feira, etc.).
-const dayOfWeek = date.getDay();
-console.log(dayOfWeek);
+// Math.min(): Retorna o menor valor entre os argumentos passados.
+const minNumber = Math.min(10, 5, 15, 20);
+console.log(minNumber); // Saída: 5
 
-// getHours(): Retorna as horas de uma data.
-const hours = date.getHours();
-console.log(hours);
+// Math.random(): Retorna um número pseudoaleatório entre 0 e 1.
+const randomNumber = Math.random();
+console.log(randomNumber); // Saída: número pseudoaleatório entre 0 e 1
 
-// getMinutes(): Retorna os minutos de uma data.
-const minutes = date.getMinutes();
-console.log(minutes);
+// Math.sqrt(): Retorna a raiz quadrada de um número.
+const number = 16;
+const squareRoot = Math.sqrt(number);
+console.log(squareRoot); // Saída: 4
 
-// getSeconds(): Retorna os segundos de uma data.
-const seconds = date.getSeconds();
-console.log(seconds);
