@@ -10,8 +10,3 @@ console.log(bananinha.startsWith("ban"));
 
 // Verifica se a string termina com a substring "nha": true
 console.log(bananinha.endsWith("nha"));
-
-
-
-
-
