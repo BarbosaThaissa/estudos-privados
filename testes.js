@@ -1,29 +1,33 @@
 // Postagem
 
-//Numeros metodos
+//Datas metodos
 
-// toFixed(): Retorna uma string representando o número com um número fixo de casas decimais.
-const num = 3.14159;
-console.log(num.toFixed(2)); // Saída: "3.14"
+const date = new Date();
 
-// toPrecision(): Retorna uma string representando o número com a precisão especificada.
-const num2 = 123.456789;
-console.log(num2.toPrecision(5)); // Saída: "123.46"
+// getFullYear(): Retorna o ano de uma data.
+const year = date.getFullYear();
+console.log(year);
 
-// toString(): Retorna uma string representando o número na base especificada (por exemplo, binário, hexadecimal, etc.).
-const num3 = 42;
-console.log(num3.toString(2)); // Saída: "101010"
+// getMonth(): Retorna o mês de uma data (0 - janeiro, 1 - fevereiro, etc.).
+const month = date.getMonth();
+console.log(month);
 
-// parseInt(): Converte uma string em um número inteiro na base especificada.
-const binaryString = "101010";
-console.log(parseInt(binaryString, 2)); // Saída: 42
+// getDate(): Retorna o dia do mês de uma data.
+const dayOfMonth = date.getDate();
+console.log(dayOfMonth);
 
-// parseFloat(): Converte uma string em um número de ponto flutuante.
-const floatString = "3.14";
-console.log(parseFloat(floatString)); // Saída: 3.14
+// getDay(): Retorna o dia da semana de uma data (0 - domingo, 1 - segunda-feira, etc.).
+const dayOfWeek = date.getDay();
+console.log(dayOfWeek);
 
-// isNaN(): Verifica se um valor é NaN (Not-a-Number).
-const value1 = 42;
-const value2 = "not a number";
-console.log(isNaN(value1)); // Saída: false
-console.log(isNaN(value2)); // Saída: true
+// getHours(): Retorna as horas de uma data.
+const hours = date.getHours();
+console.log(hours);
+
+// getMinutes(): Retorna os minutos de uma data.
+const minutes = date.getMinutes();
+console.log(minutes);
+
+// getSeconds(): Retorna os segundos de uma data.
+const seconds = date.getSeconds();
+console.log(seconds);
