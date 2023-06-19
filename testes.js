@@ -1,15 +1,20 @@
 // Postagem
 
-//Math metodos
+/// keys(): Retorna um array contendo as chaves do objeto.
+const objKeys = { name: "John", age: 30, city: "New York" };
+const keys = Object.keys(objKeys);
+console.log(keys); // Saída: ["name", "age", "city"]
 
-// Exemplo do método JSON.stringify()
-const obj = { name: "John", age: 30, city: "New York" };
-const jsonString = JSON.stringify(obj);
+// values(): Retorna um array contendo os valores do objeto.
+const objValues = { name: "John", age: 30, city: "New York" };
+const values = Object.values(objValues);
+console.log(values); // Saída: ["John", 30, "New York"]
 
-console.log(jsonString); // Saída: '{"name":"John","age":30,"city":"New York"}'
+// entries(): Retorna um array contendo pares chave-valor do objeto.
+const objEntries = { name: "John", age: 30, city: "New York" };
+const entries = Object.entries(objEntries);
+console.log(entries); // Saída: [["name", "John"], ["age", 30], ["city", "New York"]]
 
-// Exemplo do método JSON.parse()
-const stringJson = '{"name":"John","age":30,"city":"New York"}';
-const parsedObj = JSON.parse(jsonString);
-
-console.log(parsedObj); // Saída: { name: "John", age: 30, city: "New York" }
+// hasOwnProperty(): Verifica se o objeto possui uma propriedade específica.
+const objProperty = { name: "John", age: 30, city: "New York" };
+console.log(objProperty.hasOwnProperty("name")); // Saída: true
