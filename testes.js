@@ -18,3 +18,4 @@ console.log(entries); // Saída: [["name", "John"], ["age", 30], ["city", "New Y
 // hasOwnProperty(): Verifica se o objeto possui uma propriedade específica.
 const objProperty = { name: "John", age: 30, city: "New York" };
 console.log(objProperty.hasOwnProperty("name")); // Saída: true
+
