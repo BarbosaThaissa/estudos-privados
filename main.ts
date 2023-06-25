@@ -1,3 +1,5 @@
+const bla: string = "bla";
+
 //EXERCIO 2
 interface ObjetoClientEx2 {
   nome: string;
