@@ -1,4 +1,6 @@
 const bla: string = "bla";
+const num7: number = 20;
+const bla: string = "bla";
 
 //EXERCIO 2
 interface ObjetoClientEx2 {
