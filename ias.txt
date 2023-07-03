@@ -25,3 +25,17 @@ REFACTOR: para refatorações de código, ou seja, alterações que não adicion
 TEST: para adição ou modificação de testes.
 
 ----------------------------------------------------------------
+
+**CRIAR UM REPOSITÒRIO PELA LINHA DE COMANDO.**
+
+echo "# reprograma-oficina" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin git@github.com:BarbosaThaissa/crud-users-quasar.git
+git push -u origin main
+
+**TIRANDO UM ARQUIVO QUE NÂO DEVERIA TER IDO PRO GITHUB**
+
+git rm --cached ./seuarquivo.txt
