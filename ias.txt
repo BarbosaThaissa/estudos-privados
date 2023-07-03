@@ -11,3 +11,17 @@ PHIND: https://www.phind.com/
 BARD: https://bard.google.com/
 YOU: https://you.com/
 _________________________________________________________________________________
+
+**GITHUB**
+
+**PADRÕES DE COMMITs:**
+
+FEAT: para novas funcionalidades adicionadas ao código
+FIX: para correções de bugs
+CHORE: para tarefas de manutenção do código (por exemplo, atualizações de dependências)
+DOCS: para alterações na documentação
+STYLE: para alterações na formatação do código (por exemplo, mudanças de indentação)
+REFACTOR: para refatorações de código, ou seja, alterações que não adicionam novas funcionalidades nem corrigem bugs, mas melhoram a estrutura do código
+TEST: para adição ou modificação de testes.
+
+----------------------------------------------------------------
