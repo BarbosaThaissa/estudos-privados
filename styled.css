@@ -4,8 +4,16 @@ body {
   box-sizing: border-box;
   background-color: burlywood;
   min-height: 97vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .container {
   background-color: aliceblue;
+  display: flex;
+  flex-direction: column;
+  min-width: 50%;
+  padding: 1rem;
+  border-radius: 10px;
 }
