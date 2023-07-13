@@ -39,3 +39,8 @@ git push -u origin main
 **TIRANDO UM ARQUIVO QUE NÂO DEVERIA TER IDO PRO GITHUB**
 
 git rm --cached ./seuarquivo.txt
+
+------------------------------------------------------------------
+**ATUALIZAR REPO LOCAL QUANDO TROCAR O NOME DO REMOTO**
+
+git remote set-url origin <novo-URL-do-repositório>
