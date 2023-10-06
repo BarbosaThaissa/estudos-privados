@@ -1,3 +1,0 @@
-Bom, hoje eu finalmente desatrasei o meu estudos de ingles, e fiz mais algumans perguntas para o cht gpt para o projeto de app de edição de fotos que estou pensando em fazer e mais tarde vou termenar de vez o detalhs no pojeto Pokedex e já vou entregar logo.
-
-Bom, ontem eu foquei em fazer o prompt share, do Andrian. E hoje eu vou tentar concerta o bug de login, se não de certo eu vou usar o firebase mesmo. Além disso, depois eu vou analisar o exemplo de curriculo e linkdin que eu vi no discor VaccumORG.
