@@ -1,0 +1,39 @@
+PARA SER DESENVOLVEDORA DE SOFTWARE ESPECIALIZADA EM C#, KOTLIN E JAVA. 
+
+Aqui estão algumas áreas comuns de trabalho e as ferramentas/tecnologias associadas:
+
+1. **Desenvolvimento de Aplicativos Móveis Android (Kotlin/Java):**
+   - IDEs: Android Studio (para Kotlin e Java)
+   - Bibliotecas e Frameworks: Android SDK, Android Jetpack (LiveData, ViewModel, etc.), Retrofit (para chamadas de API), Dagger 2 (injeção de dependência), etc.
+
+2. **Desenvolvimento Back-end (C# ou Java):**
+   - C#:
+     - IDEs: Visual Studio, Visual Studio Code (com extensões para C#)
+     - Frameworks: ASP.NET, ASP.NET Core
+     - Bancos de Dados: SQL Server, Entity Framework
+   - Java:
+     - IDEs: IntelliJ IDEA, Eclipse, NetBeans
+     - Frameworks: Spring Framework, Spring Boot
+     - Bancos de Dados: MySQL, PostgreSQL, Oracle, Hibernate
+
+3. **Desenvolvimento de Software Desktop (C# ou Java):**
+   - C#:
+     - Windows Forms, WPF
+   - Java:
+     - JavaFX, Swing
+
+4. **Desenvolvimento Web (C# ou Java):**
+   - C#:
+     - ASP.NET (MVC, Web API)
+   - Java:
+     - Servlets, JSP, Spring MVC
+
+5. **Testes:**
+   - Frameworks de teste como JUnit (Java) e NUnit (C#)
+  
+
+Os tipos de projetos podem variar de acordo com a empresa e as necessidades do cliente. Pode ser desde o desenvolvimento de aplicativos móveis, sistemas de gerenciamento de banco de dados, sistemas web, aplicativos desktop e jogos. Portanto, é importante estar disposta a adaptar suas habilidades às necessidades específicas do trabalho.
+
+
+
+
