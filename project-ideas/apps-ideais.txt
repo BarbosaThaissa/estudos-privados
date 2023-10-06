@@ -1,0 +1,10 @@
+ALGUMAS DAS MINHAS IDEIAS DE SOFTWARE e PROJETOS:
+
+1 - Plataforma de aprendizado online com gerenciamento de cursos e avaliações.
+2 - Aplicativo de gerenciamento de finanças pessoais com visualização de gráficos.
+3 - Sistema de gerenciamento de pedidos para um restaurante com cardápio online e acompanhamento de entregas usando C#, .NET Core, ASP.NET Core MVC e Angular.
+4 - Aplicativo de acompanhamento de atividades físicas com registro de exercícios e estatísticas.
+5 - App PARA ENCONTRAR TATUADORES / FOTOGRAFOS (para agendar)
+6 - App PARA OUVIR MUSÚCAS (Parecido Spotify) / TOCADOR DE MÚSICAS,  (igual ao o que tenho no meu cel):
+7 - APP PARA EDIÇÂO DE FOTO. 
+8 - APP PARA EDIÇÂO DE VIDEO.  
