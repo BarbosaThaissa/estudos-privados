@@ -1,16 +1,14 @@
-# Hellow, esse é seu repositório privado de estudosssssss!!!
+# Hi, this is my study repository!
 
-<h2>Vou adicionar e testar codigos TypeScrip e java aqui</h2>
-<h2>E vou documentar o que estou estudand no momento!</h2>
+<h3>I'm going to use it to store things that I think are important.</h3>
 
-______________________________
 ## Exemplo de README.md para usar nos meus proximos projetos
 
 ## Link do original https://gist.github.com/reginadiana/e044fe93ed81aa04a10361cb841c0409
 
 ## MODELO 👇🏾👇🏾
 
-<h1>Titulo ou Arte do Projeto</h1> 
+<h1>Titulo ou Arte do Projeto</h1>
 
 <p align="center">
   <img src="https://img.shields.io/static/v1?label=react&message=framework&color=blue&style=for-the-badge&logo=REACT"/>
@@ -25,7 +23,7 @@ ______________________________
 
 > Status do Projeto: :heavy_check_mark: :warning: (concluido, em desenvolvimento, etc)
 
-### Tópicos 
+### Tópicos
 
 :small_blue_diamond: [Descrição do projeto](#descrição-do-projeto)
 
@@ -37,11 +35,11 @@ ______________________________
 
 :small_blue_diamond: [Como rodar a aplicação](#como-rodar-a-aplicação-arrow_forward)
 
-... 
+...
 
 Insira os tópicos do README em links para facilitar a navegação do leitor
 
-## Descrição do projeto 
+## Descrição do projeto
 
 <p align="justify">
   Descrição breve do projeto compondo um paragrafo ou dois. 
@@ -49,19 +47,19 @@ Insira os tópicos do README em links para facilitar a navegação do leitor
 
 ## Funcionalidades
 
-:heavy_check_mark: Funcionalidade 1  
+:heavy_check_mark: Funcionalidade 1
 
-:heavy_check_mark: Funcionalidade 2  
+:heavy_check_mark: Funcionalidade 2
 
-:heavy_check_mark: Funcionalidade 3  
+:heavy_check_mark: Funcionalidade 3
 
-:heavy_check_mark: Funcionalidade 4  
+:heavy_check_mark: Funcionalidade 4
 
 ## Layout ou Deploy da Aplicação :dash:
 
 > Link do deploy da aplicação. Exemplo com netlify: https://certificates-for-everyone-womakerscode.netlify.app/
 
-... 
+...
 
 Se ainda não houver deploy, insira capturas de tela da aplicação ou gifs
 
@@ -71,17 +69,17 @@ Se ainda não houver deploy, insira capturas de tela da aplicação ou gifs
 
 ...
 
-Liste todas as dependencias e libs que o usuário deve ter instalado na máquina antes de rodar a aplicação 
+Liste todas as dependencias e libs que o usuário deve ter instalado na máquina antes de rodar a aplicação
 
 ## Como rodar a aplicação :arrow_forward:
 
-No terminal, clone o projeto: 
+No terminal, clone o projeto:
 
 ```
 git clone https://github.com/exemplo
 ```
 
-... 
+...
 
 Coloque um passo a passo para rodar a sua aplicação. **Dica: clone o próprio projeto e verfique se o passo a passo funciona**
 
@@ -90,30 +88,30 @@ Coloque um passo a passo para rodar a sua aplicação. **Dica: clone o próprio 
 Coloque um passo a passo para executar os testes
 
 ```
-$ npm test, rspec, etc 
+$ npm test, rspec, etc
 ```
 
 ## Casos de Uso
 
-Explique com mais detalhes como a sua aplicação poderia ser utilizada. O uso de **gifs** aqui seria bem interessante. 
+Explique com mais detalhes como a sua aplicação poderia ser utilizada. O uso de **gifs** aqui seria bem interessante.
 
 Exemplo: Caso a sua aplicação tenha alguma funcionalidade de login apresente neste tópico os dados necessários para acessá-la.
 
 ## JSON :floppy_disk:
 
-### Usuários: 
+### Usuários:
 
-|name|email|password|token|avatar|
-| -------- |-------- |-------- |-------- |-------- |
-|Jane Doane|exemplo01@gmail.com|JD123|true|https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcS9-U_HbQAipum9lWln3APcBIwng7T46hdBA42EJv8Hf6Z4fDT3&usqp=CAU|
+| name       | email               | password | token | avatar                                                                                                              |
+| ---------- | ------------------- | -------- | ----- | ------------------------------------------------------------------------------------------------------------------- |
+| Jane Doane | exemplo01@gmail.com | JD123    | true  | https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcS9-U_HbQAipum9lWln3APcBIwng7T46hdBA42EJv8Hf6Z4fDT3&usqp=CAU |
 
-... 
+...
 
-Se quiser, coloque uma amostra do banco de dados 
+Se quiser, coloque uma amostra do banco de dados
 
 ## Iniciando/Configurando banco de dados
 
-Se for necessário configurar algo antes de iniciar o banco de dados insira os comandos a serem executados 
+Se for necessário configurar algo antes de iniciar o banco de dados insira os comandos a serem executados
 
 ## Linguagens, dependencias e libs utilizadas :books:
 
@@ -122,30 +120,30 @@ Se for necessário configurar algo antes de iniciar o banco de dados insira os c
 
 ...
 
-Liste as tecnologias utilizadas no projeto que **não** forem reconhecidas pelo Github 
+Liste as tecnologias utilizadas no projeto que **não** forem reconhecidas pelo Github
 
 ## Resolvendo Problemas :exclamation:
 
-Em [issues]() foram abertos alguns problemas gerados durante o desenvolvimento desse projeto e como foram resolvidos. 
+Em [issues]() foram abertos alguns problemas gerados durante o desenvolvimento desse projeto e como foram resolvidos.
 
 ## Tarefas em aberto
 
 Se for o caso, liste tarefas/funcionalidades que ainda precisam ser implementadas na sua aplicação
 
-:memo: Tarefa 1 
+:memo: Tarefa 1
 
-:memo: Tarefa 2 
+:memo: Tarefa 2
 
-:memo: Tarefa 3 
+:memo: Tarefa 3
 
 ## Desenvolvedores/Contribuintes :octocat:
 
 Liste o time responsável pelo desenvolvimento do projeto
 
-| [<img src="https://avatars.githubusercontent.com/u/95388382?v=4" width=115><br><sub>Thaissa Barbosa</sub>](https://github.com/BarbosaThaissa) |  [<img src="https://avatars.githubusercontent.com/u/95388382?v=4" width=115><br><sub>Thaissa Barbosa</sub>](https://github.com/BarbosaThaissa) |  [<img src="https://avatars.githubusercontent.com/u/95388382?v=4" width=115><br><sub>Thaissa Barbosa</sub>](https://github.com/BarbosaThaissa) |
-| :---: | :---: | :---: 
+| [<img src="https://avatars.githubusercontent.com/u/95388382?v=4" width=115><br><sub>Thaissa Barbosa</sub>](https://github.com/BarbosaThaissa) | [<img src="https://avatars.githubusercontent.com/u/95388382?v=4" width=115><br><sub>Thaissa Barbosa</sub>](https://github.com/BarbosaThaissa) | [<img src="https://avatars.githubusercontent.com/u/95388382?v=4" width=115><br><sub>Thaissa Barbosa</sub>](https://github.com/BarbosaThaissa) |
+| :-------------------------------------------------------------------------------------------------------------------------------------------: | :-------------------------------------------------------------------------------------------------------------------------------------------: | :-------------------------------------------------------------------------------------------------------------------------------------------: |
 
-## Licença 
+## Licença
 
 The [MIT License]() (MIT)
 
