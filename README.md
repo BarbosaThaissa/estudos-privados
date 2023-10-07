@@ -2,9 +2,11 @@
 
 <h3>I'm going to use it to store things that I think are important.</h3>
 
+--------------------------------------------------------------------------------------------------------------------------------------------
+
 ## Exemplo de README.md para usar nos meus proximos projetos
 
-## Link do original https://gist.github.com/reginadiana/e044fe93ed81aa04a10361cb841c0409
+<p> Link do original https://gist.github.com/reginadiana/e044fe93ed81aa04a10361cb841c0409 <a>
 
 ## MODELO 👇🏾👇🏾
 
@@ -29,7 +31,7 @@
 
 :small_blue_diamond: [Funcionalidades](#funcionalidades)
 
-:small_blue_diamond: [Deploy da Aplicação](#deploy-da-aplicação-dash)
+:small_blue_diamond: [Layout ou Deploy da Aplicação](#layout-ou-deploy-da-aplicação-dash)
 
 :small_blue_diamond: [Pré-requisitos](#pré-requisitos)
 
